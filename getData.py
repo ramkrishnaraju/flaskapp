@@ -13,10 +13,10 @@ def getApiData():
                     #optional
                     #access_token = "your access token",
                     #refresh_token = "your refresh_token")
-    obj = SmartConnect(api_key="j36iHU6d")
+    obj = SmartConnect(api_key="Test")
     #login api call
     #T88892", "Sairam@21","j36iHU6d"
-    data = obj.generateSession("T88892","Sairam@21")
+    data = obj.generateSession("T$est","Test@21")
     refreshToken = data['data']['refreshToken']
 
     #fetch the feedtoken
